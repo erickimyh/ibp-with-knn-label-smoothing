@@ -1,5 +1,4 @@
-This is an adaptation of Fast Certified Robust Training with Short Warmup (https://github.com/shizhouxing/Fast-Certified-Robust-Training), which implements label smoothing to relax the specification loss term for points near the decision boundary. This is work for a final project for Professor Guido Montufar's 285J Seminar on robustness in AI. 
-
+This is an adaptation of Fast Certified Robust Training with Short Warmup (https://github.com/shizhouxing/Fast-Certified-Robust-Training), which implements label smoothing to relax the specification loss term for points near the decision boundary. This is work for a final project for Professor Guido Montufar's 285J Seminar on robustness in AI. The rest of this README is from the original work. 
 
 # Fast Certified Robust Training with Short Warmup
 
