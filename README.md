@@ -1,3 +1,6 @@
+This is an adaptation of Fast Certified Robust Training with Short Warmup (https://github.com/shizhouxing/Fast-Certified-Robust-Training), which implements label smoothing to relax the specification loss term for points near the decision boundary. This is work for a final project for Professor Guido Montufar's 285J Seminar on robustness in AI. 
+
+
 # Fast Certified Robust Training with Short Warmup
 
 Interval bound based certified robust training such as [IBP](https://github.com/deepmind/interval-bound-propagation) and [CROWN-IBP](https://github.com/huanzhang12/CROWN-IBP) are one of the most effective approaches for L_inf norm certified robustness. Unfortunately, IBP based training is often unstable and requires a large number of "warmup" epochs and a long training schedule. Existing works typically *require a large number epochs* (e.g., a few thousands) to achieve SOTA certified error. 
