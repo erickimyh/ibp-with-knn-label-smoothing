@@ -1,0 +1,12 @@
+{
+    "data": "MNIST",
+    "batch_size": 256,
+    "bound_params": {
+        "eps": 0.4,
+        "bound_type": "IBP",
+        "bound_opts": {
+            "relu": "adaptive",
+            "exp": "clamp_constant"
+        }              
+    }
+}
